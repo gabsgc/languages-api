@@ -1,4 +1,4 @@
-package br.com.alura.apilanguages.model;
+package br.com.alura.apilanguages.domain.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -36,5 +36,17 @@ public class Language {
 
     public Integer getRanking() {
         return ranking;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public void setRanking(Integer ranking) {
+        this.ranking = ranking;
     }
 }
