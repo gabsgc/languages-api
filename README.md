@@ -8,7 +8,7 @@
 - GET de linguagens
 - POST de linguagens
 
-## Endpoints
+## 🖥️ Endpoints
 #### GET Linguagens e POST Linguagens
 ````
 http://localhost:8080/languages
