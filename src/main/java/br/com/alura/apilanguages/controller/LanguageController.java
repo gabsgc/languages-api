@@ -32,16 +32,16 @@ public class LanguageController {
         return ResponseEntity.ok(result);
     }
 
-    @PutMapping("/languages/{id}")
+    @PatchMapping("/languages/{id}")
     public ResponseEntity<LanguageResponse> update(
-            @PathVariable String id,
+            @PathVariable("id") String id,
             @RequestBody @Valid LanguageUpdateRequest updateRequest) {
         var language = service.updateLanguage(id, updateRequest);
         return ResponseEntity.ok(language);
     }
 
     @DeleteMapping("/languages/{id}")
-    public ResponseEntity<LanguageResponse> delete(@PathVariable String id) {
+    public ResponseEntity<LanguageResponse> delete(@PathVariable("id") String id) {
         var language = service.delete(id);
         return ResponseEntity.ok(language);
     }
