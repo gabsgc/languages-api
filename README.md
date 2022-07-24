@@ -10,16 +10,27 @@
 - PATCH de linguagens (update parcial: altera imagem e ranking)
 - DELETE de linguagens
 
+## 🛠️ Tecnologias utilizadas
+- Java 18
+- Spring Framework
+- MongoDb
+
 ## 🖥️ Endpoints
 #### GET Linguagens e POST Linguagens
 ````
-http://localhost:8080/languages
+https://languages-api-java-immersion.herokuapp.com/languages
 ````
 #### DELETE Linguagem e PATCH Linguagem
 ````
-http://localhost:8080/languages/{id}
+https://languages-api-java-immersion.herokuapp.com/languages/{id}
 ````
-
+#### Exemplo de PATCH Linguagem
+````
+	{
+		"image": "https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/php/php.png?raw=true",
+		"ranking": 8
+	}
+````
 ## 📒 Conteúdos da Imersão 
 **Aulas 1, 2 e 3**: [Consumir API e exibir filmes e séries e criar um gerador de figurinhas](https://github.com/gabsgc/alura-stickers)
 
@@ -33,7 +44,12 @@ http://localhost:8080/languages/{id}
   - [X] Aplicar modificações parciais no recurso através do método PATCH.
 
 ## 📸 Screenshots
-####  🚧 Em breve
+####  📌 Stickers de linguagens de programação enviadas no WhatsApp
+<img src="https://github.com/gabsgc/languages-api/blob/master/.attachments/stickers-whatsapp.jpeg" alt="Stickers" width="50%">
+
+## 🚀 Próximos passos - Desafios
+- [ ] Implementar algum mecanismo de votação na API, para que outros amigos votem nas linguagens preferidas;
+- [ ] Devolver a listagem ordenada pelo ranking.
 
 ## ❔ Dúvidas?!
 Se tiver alguma dúvida sobre este repositório, envie para gabriellagarccia@gmail.com
