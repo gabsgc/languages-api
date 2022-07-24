@@ -26,10 +26,10 @@ https://languages-api-java-immersion.herokuapp.com/languages/{id}
 ````
 #### Exemplo de PATCH Linguagem
 ````
-	{
-		"image": "https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/php/php.png?raw=true",
-		"ranking": 8
-	}
+{
+	"image": "https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/php/php.png?raw=true",
+	"ranking": 8
+}
 ````
 ## 📒 Conteúdos da Imersão 
 **Aulas 1, 2 e 3**: [Consumir API e exibir filmes e séries e criar um gerador de figurinhas](https://github.com/gabsgc/alura-stickers)
