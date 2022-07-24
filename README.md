@@ -30,5 +30,8 @@ http://localhost:8080/languages/{id}
   - [X] Retornar o *status* 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST;
   - [X] Aplicar modificações parciais no recurso através do método PATCH.
 
+## 📸 Screenshots
+####  🚧 Em breve
+
 ## ❔ Dúvidas?!
 Se tiver alguma dúvida sobre este repositório, envie para gabriellagarccia@gmail.com
