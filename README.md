@@ -25,6 +25,8 @@ http://localhost:8080/languages/{id}
 
 **Aula 4**: construir uma API REST para expor o nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL.
 
+**Aula 5**: vamos tornar a nossa aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem. Além disso, vamos gerar figurinhas a partir do conteúdo dessa nossa API.
+
 ## 🎯 Desafios cumpridos
   - [X] Finalizar o CRUD (Create, Read, Update e Delete) para se poder atualizar e excluir uma linguagem cadastrada;
   - [X] Retornar o *status* 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST;
